@@ -72,6 +72,7 @@ Esto permite analizar cada venta tanto por características del cliente (segment
 | Alto patrimonio | 1,105 | $757.5M |
 
 **Conversión de base de datos**
+- El **análisis de cohortes muestra caída fuerte después del primer mes** en la mayoría de los meses de cohorte (ej. cohorte 2023-01: 224 clientes iniciales, cae a 13 en el segundo mes), aunque algunos meses mantienen actividad recurrente varios meses después — consistente con el 77% de clientes recurrentes ya identificado.
 - Solo **3,139 de 3,500 clientes** registrados (89.7%) han comprado — 361 clientes sin conversión aún.
 - Solo **5,223 de 8,000 propiedades** del catálogo (65.3%) se han vendido — 2,777 propiedades sin movimiento.
 - **2,421 de 3,139 clientes compradores (77.1%) son recurrentes** (2+ compras), hasta un máximo de 10 compras por cliente — señal fuerte de retención en el segmento inversionista.
@@ -91,7 +92,20 @@ Esto permite analizar cada venta tanto por características del cliente (segment
 
 ## 📈 Dashboard en Power BI
 
-*(Capturas pendientes — se agregan en el siguiente paso)*
+
+Tres páginas interactivas:
+
+**Overview** — KPIs generales, ingreso mensual y comparación de revenue por ciudad.
+
+![Overview](overview.png)
+
+**Análisis de Cohortes** — retención de clientes por mes de primera compra, mostrando cuántos siguen comprando en los meses siguientes.
+
+![Análisis de Cohortes](Analisis%20de%20cohortes.png)
+
+**Análisis Comercial** — participación por tipo de propiedad, canal de venta y segmento de cliente, con tabla de detalle por tipo de propiedad.
+
+![Análisis Comercial](Analisis%20comercial%20.png)
 
 ---
 
